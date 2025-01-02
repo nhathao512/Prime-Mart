@@ -1,4 +1,4 @@
-# PrimeMart - Online Store Management System
+# 💻Prime Mart - Online Store Management System
 
 ## 📖 Project Overview
 PrimeMart is a web-based management system inspired by real-world supermarkets, aiming to optimize management processes and enhance customer experience. This application allows users to explore a wide range of products, make secure purchases, and enjoy a seamless shopping experience. For administrators, PrimeMart offers a robust backend for managing orders, products, and customer interactions.
