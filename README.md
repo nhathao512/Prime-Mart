@@ -87,7 +87,7 @@ PRIME-MART
 To get started with this project, clone the repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/prime-mart.git
+git clone https://github.com/nhathao512/Prime-Mart.git
 ```
 
 ### Installation
