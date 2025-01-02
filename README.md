@@ -1,96 +1,130 @@
-# 💻Prime Mart - Online Store Management System
+# PRIME-MART: A Sales Website
 
 ## 📖 Project Overview
-PrimeMart is a web-based management system inspired by real-world supermarkets, aiming to optimize management processes and enhance customer experience. This application allows users to explore a wide range of products, make secure purchases, and enjoy a seamless shopping experience. For administrators, PrimeMart offers a robust backend for managing orders, products, and customer interactions.
+**PRIME-MART** is a sales platform inspired by similar e-commerce websites like Bach Hoa Xanh. This application provides a seamless shopping experience, allowing users to search for products, add items to their cart, receive product suggestions, and access customer support easily.
 
 ---
 
 ## 🎯 Key Features
 
-### Customer Features
-- **User Account Management**:
-  - Register, log in, and edit personal information.
-- **Search and Explore Products**:
-  - Browse products by keyword or category and filter based on preferences.
-- **Shopping Cart**:
-  - Add products to the cart, modify quantities, and remove items.
-- **Order Placement**:
-  - Securely place orders with support for online payments.
-- **Notifications**:
-  - Receive updates about promotions, new products, and order statuses.
-- **Customer Support**:
-  - Integrated chat feature for queries and complaints.
+### **1. Product Management**
+- **Product Listing**:
+  - Display all available products categorized for easy navigation.
+- **Product Details**:
+  - Provide detailed descriptions, images, and prices.
 
-### Manager Features
-- **Order Management**:
-  - Process and update order statuses.
-- **Product Management**:
-  - Add, edit, and delete product details.
-- **Customer Management**:
-  - Manage customer profiles and order histories.
-- **Category and Brand Management**:
-  - Organize product categories and brand details.
-- **Reporting**:
-  - Analyze sales data to make informed business decisions.
+### **2. Cart Functionality**
+- **Add to Cart**:
+  - Users can add desired items to their cart.
+- **View and Modify Cart**:
+  - Allow users to view, update, or remove items from their cart.
+- **Checkout Process**:
+  - Streamlined checkout process with payment options.
 
----
+### **3. Customer Support**
+- **Contact Form**:
+  - Users can reach out for support via the contact page.
+- **Mailbox**:
+  - Admins can manage and respond to user queries.
 
-## 🛠️ Technology Stack
+### **4. User Authentication**
+- **Login/Signup**:
+  - Secure user registration and login functionalities.
+- **Change Password**:
+  - Allow users to update their account credentials.
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Not applicable for this implementation
-- **Development Tools**: StarUML, Draw.io, Google Drive, Discord
-- **Database**: Not specified in this implementation
+### **5. Recommendations and History**
+- **Product Suggestions**:
+  - Recommend similar products based on user interactions.
+- **Order History**:
+  - Display a history of previously purchased products.
 
 ---
 
-## 🏗️ Project Structure
+## 📂 Project Structure
 
 ```plaintext
-PrimeMart
-├── Frontend
-│   ├── index.html            # Home page
-│   ├── product_list.html     # Product listing
-│   ├── cart.html             # Shopping cart
-│   └── order.html            # Order confirmation
-├── Documentation
-│   ├── diagrams              # UML diagrams and system designs
-│   └── N2_Report.pdf         # Detailed project report
-└── README.md                 # Project documentation
+PRIME-MART
+├── SourceCode               # Main source code folder
+│   ├── admin                # Admin dashboard for managing products and users
+│   ├── api                  # API endpoints for data handling
+│   ├── cart                 # Cart functionality
+│   ├── css                  # Stylesheets
+│   ├── database             # Database scripts and configurations
+│   ├── fonts                # Fonts used in the project
+│   ├── images               # Image assets
+│   ├── js                   # JavaScript files
+│   ├── Layout               # Layout templates
+│   ├── lib                  # Third-party libraries
+│   ├── utils                # Utility PHP files
+│   │   ├── AboutUs.php
+│   │   ├── changePass.php
+│   │   ├── checkout_product.php
+│   │   ├── collection.php
+│   │   ├── config.php
+│   │   ├── contact_us.php
+│   │   ├── dbhelper.php
+│   │   ├── history_product.php
+│   │   ├── index.php
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   ├── mailbox.php
+│   │   ├── shop.php
+│   │   ├── shopping-cart.php
+│   │   ├── signup.php
+│   │   ├── single_product.php
+│   │   ├── style.css
+│   │   └── utility.php
+├── LICENSE.md               # License information
+└── README.md                # Project documentation
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- A modern web browser to view the project.
+### Clone the Repository
+To get started with this project, clone the repository using the following command:
+
+```bash
+git clone https://github.com/yourusername/prime-mart.git
+```
 
 ### Installation
-1. Clone the repository:
+1. Navigate to the `SourceCode` directory:
    ```bash
-   git clone https://github.com/nhathao512/Prime-Mart.git
+   cd SourceCode
    ```
-2. Open `index.html` in your browser to explore the application.
+2. Set up the database by importing the scripts from the `database` folder into your MySQL server.
+3. Configure the `config.php` file with your database credentials.
+4. Run the project using a local server (e.g., XAMPP, WAMP).
 
 ---
 
-## 🌟 Lessons Learned
-- Effective time management is critical for project success.
-- Continuous communication and collaboration are key to resolving challenges.
-- Dividing tasks among team members ensures efficiency and clarity.
-- Practical application of theoretical concepts enhances understanding.
+## 🛠️ Technologies Used
+
+- **Frontend**:
+  - HTML, CSS, JavaScript
+- **Backend**:
+  - PHP
+- **Database**:
+  - MySQL
+
+---
+
+## 🚀 Future Enhancements
+
+- **Mobile App Integration**:
+  - Develop a mobile app for iOS and Android.
+- **AI-Based Recommendations**:
+  - Leverage machine learning for personalized product suggestions.
+- **Advanced Analytics**:
+  - Provide detailed sales and user interaction analytics for admins.
 
 ---
 
 ## 🤝 Acknowledgments
-This project was developed by:
-- [Vo Nhat Hao](https://github.com/nhathao512)
-- [Dang Thanh Nhan](https://github.com/nhandang02)
-- [Ngo Duc Huy](https://github.com/Hyun177)
-- [Nguyen Thanh Nhan](https://github.com/thanhnhanzxc)
-
-Special thanks to our instructor for their invaluable guidance.
+Thank you for visiting this repository! Your feedback and contributions are valuable to us. Feel free to open an issue or submit a pull request if you have suggestions for improvement.
 
 ---
 
@@ -99,4 +133,11 @@ This project is licensed under the [License](LICENSE.md).
 
 ---
 
-### Thanks for visting our project ❤️! 
+## 🧑‍💻Author
+This project was developed by:
+- [Vo Nhat Hao](https://github.com/nhathao512)
+- [Dang Thanh Nhan](https://github.com/nhandang02)
+- [Ngo Duc Huy](https://github.com/Hyun177)
+- [Nguyen Thanh Nhan](https://github.com/thanhnhanzxc)
+
+**Experience seamless shopping with PRIME-MART!**
