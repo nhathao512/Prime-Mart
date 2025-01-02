@@ -69,7 +69,7 @@ PrimeMart
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PrimeMart.git
+   git clone https://github.com/nhathao512/Prime-Mart.git
    ```
 2. Open `index.html` in your browser to explore the application.
 
