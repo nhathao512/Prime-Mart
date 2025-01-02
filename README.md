@@ -85,16 +85,18 @@ PrimeMart
 
 ## 🤝 Acknowledgments
 This project was developed by:
-- Vo Nhat Hao
-- Dang Thanh Nhan
-- Ngo Duc Huy
-- Nguyen Thanh Nhan
+- [Vo Nhat Hao](https://github.com/nhathao512)
+- [Dang Thanh Nhan](https://github.com/nhandang02)
+- [Ngo Duc Huy](https://github.com/Hyun177)
+- [Nguyen Thanh Nhan](https://github.com/thanhnhanzxc)
 
 Special thanks to our instructor for their invaluable guidance.
 
 ---
 
 ## ⚖️ License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the [License](LICENSE.md).
 
 ---
+
+### Thanks for visting our project ❤️! 
