@@ -1,4 +1,4 @@
-# PRIME-MART: A Sales Website
+# 🛒PRIME-MART: A Sales Website
 
 ## 📖 Project Overview
 **PRIME-MART** is a sales platform inspired by similar e-commerce websites like Bach Hoa Xanh. This application provides a seamless shopping experience, allowing users to search for products, add items to their cart, receive product suggestions, and access customer support easily.
@@ -140,4 +140,4 @@ This project was developed by:
 - [Ngo Duc Huy](https://github.com/Hyun177)
 - [Nguyen Thanh Nhan](https://github.com/thanhnhanzxc)
 
-**Experience seamless shopping with PRIME-MART!**
+**Experience seamless shopping with PRIME-MART! ❤️**
