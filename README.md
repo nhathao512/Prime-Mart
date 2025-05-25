@@ -1,11 +1,11 @@
 # 🛒PRIME-MART: A Sales Website
 
-## 📖 Project Overview
+## Project Overview
 **PRIME-MART** is a sales platform inspired by similar e-commerce websites like Bach Hoa Xanh. This application provides a seamless shopping experience, allowing users to search for products, add items to their cart, receive product suggestions, and access customer support easily.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 ### **1. Product Management**
 - **Product Listing**:
@@ -41,7 +41,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```plaintext
 PRIME-MART
@@ -81,7 +81,7 @@ PRIME-MART
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the Repository
 To get started with this project, clone the repository using the following command:
@@ -101,7 +101,7 @@ git clone https://github.com/nhathao512/Prime-Mart.git
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**:
   - HTML, CSS, JavaScript
@@ -112,7 +112,7 @@ git clone https://github.com/nhathao512/Prime-Mart.git
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - **Mobile App Integration**:
   - Develop a mobile app for iOS and Android.
@@ -123,17 +123,17 @@ git clone https://github.com/nhathao512/Prime-Mart.git
 
 ---
 
-## 🤝 Acknowledgments
+## Acknowledgments
 Thank you for visiting this repository! Your feedback and contributions are valuable to us. Feel free to open an issue or submit a pull request if you have suggestions for improvement.
 
 ---
 
-## ⚖️ License
+## License
 This project is licensed under the [License](LICENSE.md).
 
 ---
 
-## 🧑‍💻Author
+## Author
 This project was developed by:
 - [Vo Nhat Hao](https://github.com/nhathao512)
 - [Dang Thanh Nhan](https://github.com/nhandang02)
